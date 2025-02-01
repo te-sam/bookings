@@ -1,0 +1,30 @@
+[
+    {
+        "email": "artem.sam@yandex.ru",
+        "hashed_password": "$2b$12$pk3oQV3QaP6.etV8rt7JF.dL0Z4VDE5OZB5RFETQF6P3xbm2YhTBO"
+    },
+    {
+        "email": "govnovoz228@gmail.com",
+        "hashed_password": "$2b$12$pk3oQV3QaP6.etV8rt7JF.dL0Z4VDE5OZB5RFETQF6P3xbm2YhTBO"
+    },
+    {
+        "email": "sosiska@mail.ru",
+        "hashed_password": "$2b$12$abc123xXyZpq1d.JKdPlU.bBAsddQzHT6F1IRjG62r7ujkwJeXfP."
+    },
+    {
+        "email": "pelmen@yandex.ru",
+        "hashed_password": "$2b$12$qwe456AqWEyxJkdHT63TklU.Dhf0zY9htlfPJo9872plkBwsAzNBk"
+    },
+    {
+        "email": "cat3@cats.com",
+        "hashed_password": "$2b$12$zxc789rtyJKLf12bn0HTyp.bUoPlmASDdQz321RjkoMGFrtbNqPwX"
+    },
+    {
+        "email": "gorbatiy@rambler.ru",
+        "hashed_password": "$2b$12$rty456JKLfQweAsDPl0HT6bNf9kpAwJeXTz321RJoMGRFlBt5PwXn"
+    },
+    {
+        "email": "pelmen@gmail.com",
+        "hashed_password": "$2b$12$yncifuCpxB3bGKoqUloTAuXmh1wkGYOQQr6tlxrDTMtb7CS6gAVHq"
+    }
+]

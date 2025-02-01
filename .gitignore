@@ -1,0 +1,6 @@
+.env
+test_data_db.sql
+/venv
+app/test.py
+__pycache__/
+/.pytest_cache

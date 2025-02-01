@@ -1,0 +1,51 @@
+[
+    {
+        "name": "Bridge Resort",
+        "location": "посёлок городского типа Сириус, Фигурная улица, 45",
+        "services": ["Wi-Fi", "Парковка", "Кондиционер в номере", "Тренажёрный зал"],
+        "rooms_quantity": 15,
+        "image_id": 6
+    },
+    {
+        "name": "Radisson Blu",
+        "location": "г. Сочи, ул. Виноградная, 33",
+        "services": ["Wi-Fi", "Бассейн", "СПА", "Парковка"],
+        "rooms_quantity": 12,
+        "image_id": 7
+    },
+    {
+        "name": "Bogatyr Hotel",
+        "location": "г. Сочи, Олимпийский проспект, 21",
+        "services": ["Wi-Fi", "Детская площадка", "Ресторан", "СПА"],
+        "rooms_quantity": 10,
+        "image_id": 8
+    },
+    {
+        "name": "Marins Park Hotel",
+        "location": "г. Сочи, ул. Морской переулок, 2",
+        "services": ["Wi-Fi", "Парковка", "Фитнес-центр", "Ресторан"],
+        "rooms_quantity": 14,
+        "image_id": 9
+    },
+    {
+        "name": "Pullman Sochi Centre",
+        "location": "г. Сочи, ул. Орджоникидзе, 11",
+        "services": ["Wi-Fi", "СПА", "Фитнес-центр", "Бассейн"],
+        "rooms_quantity": 15,
+        "image_id": 10
+    },
+    {
+        "name": "Mercure Sochi Centre",
+        "location": "г. Сочи, ул. Орджоникидзе, 11",
+        "services": ["Wi-Fi", "Бассейн", "Парковка", "СПА"],
+        "rooms_quantity": 13,
+        "image_id": 11
+    },
+    {
+        "name": "Green House Hotel",
+        "location": "г. Сочи, ул. Ульянова, 34",
+        "services": ["Wi-Fi", "Сад", "Парковка", "Ресторан"],
+        "rooms_quantity": 11,
+        "image_id": 12
+    }
+]

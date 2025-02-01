@@ -1,0 +1,83 @@
+[
+    {
+        "hotel_id": 1,
+        "name": "Делюкс Плюс",
+        "description": "Лучший номер отеля.",
+        "price": 22450,
+        "services": ["Бесплатный Wi-Fi", "Кондиционер"],
+        "quantity": 11,
+        "image_id": 8
+    },
+    {
+        "hotel_id": 1,
+        "name": "Сьют",
+        "description": "Стильный и современный номер.",
+        "price": 25000,
+        "services": ["Бесплатный Wi-Fi", "Кондиционер", "СПА-душ"],
+        "quantity": 4,
+        "image_id": 15
+    },
+    {
+        "hotel_id": 2,
+        "name": "Стандарт",
+        "description": "Уютный стандартный номер.",
+        "price": 14500,
+        "services": ["Бесплатный Wi-Fi", "Телевизор"],
+        "quantity": 12,
+        "image_id": 9
+    },
+    {
+        "hotel_id": 3,
+        "name": "Люкс",
+        "description": "Просторный номер с панорамным видом.",
+        "price": 27500,
+        "services": ["Бесплатный Wi-Fi", "Мини-бар", "Кондиционер"],
+        "quantity": 5,
+        "image_id": 10
+    },
+    {
+        "hotel_id": 3,
+        "name": "Двухместный номер",
+        "description": "Идеальный вариант для пары.",
+        "price": 15500,
+        "services": ["Бесплатный Wi-Fi", "Мини-бар"],
+        "quantity": 5,
+        "image_id": 16
+    },
+    {
+        "hotel_id": 4,
+        "name": "Эконом",
+        "description": "Бюджетный вариант для туристов.",
+        "price": 9800,
+        "services": ["Бесплатный Wi-Fi"],
+        "quantity": 14,
+        "image_id": 11
+    },
+    {
+        "hotel_id": 5,
+        "name": "Семейный",
+        "description": "Комната для всей семьи.",
+        "price": 18500,
+        "services": ["Бесплатный Wi-Fi", "Кухня", "Детская кроватка"],
+        "quantity": 13,
+        "image_id": 12
+    },
+    {
+        "hotel_id": 6,
+        "name": "Премиум Люкс",
+        "description": "Эксклюзивные удобства и сервис.",
+        "price": 32000,
+        "services": ["Бесплатный Wi-Fi", "Джакузи", "Мини-бар"],
+        "quantity": 13,
+        "image_id": 13
+    },
+    {
+        "hotel_id": 7,
+        "name": "Комфорт",
+        "description": "Приятное сочетание цены и качества.",
+        "price": 17000,
+        "services": ["Бесплатный Wi-Fi", "Телевизор", "Мини-бар"],
+        "quantity": 11,
+        "image_id": 14
+    }
+]
