@@ -59,3 +59,13 @@ class HotelNotFoundError(BookingException):
 class LocationHotelsNotFoundError(BookingException):
     status_code=status.HTTP_404_NOT_FOUND
     detail="По такой локации отели не найдены"
+
+
+class DateFromAfterDateTo(BookingException):
+    status_code=status.HTTP_400_BAD_REQUEST
+    detail="Дата заезда позже даты выезда"
+
+
+class DateRangeLimitExceeded(BookingException):
+    status_code=status.HTTP_400_BAD_REQUEST
+    detail="Бронирование на срок больше 30 дней невозможно"

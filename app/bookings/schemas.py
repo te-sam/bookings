@@ -3,6 +3,7 @@ from typing import List
 from pydantic import BaseModel, ConfigDict
 
 class SBooking(BaseModel):
+    id: int
     room_id: int
     user_id: int
     date_from: date

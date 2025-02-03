@@ -22,3 +22,21 @@ async def test_add_and_get_booking(room_id, date_from, date_to, booked_rooms, st
 
     response = await authenticated_ac.get("/bookings")
     assert len(response.json()) == booked_rooms
+
+@pytest.mark.parametrize("authenticated_ac", [
+    {"email": "artem.sam@yandex.ru", "password": "123456"},
+    {"email": "govnovoz228@gmail.com", "password": "123456"},
+], indirect=True)
+async def test_get_and_drop_booking(authenticated_ac: AsyncClient):
+    response = await authenticated_ac.get("/bookings")
+
+    bookings = response.json()
+    print(f"Всего бронирований = {len(bookings)}")
+
+    for booking in bookings:
+        print(f"Удаление бронирования №{booking['id']}")
+        await authenticated_ac.delete(f"/bookings/{booking['id']}")
+
+    response = await authenticated_ac.get("/bookings")
+    print(f"Бронирований после удаления = {len(response.json())}")
+    assert len(response.json()) == 0
