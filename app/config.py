@@ -6,6 +6,7 @@ from base64 import b64encode
 
 class Settings(BaseSettings):
     MODE: Literal['DEV', 'TEST', 'PROD']
+    LOG_LEVEL: str
 
     DB_HOST: str
     DB_PORT: int

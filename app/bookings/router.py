@@ -1,6 +1,7 @@
 from datetime import date, timedelta
 from fastapi import APIRouter, Depends
 from fastapi.responses import JSONResponse
+from fastapi_versioning import version
 from pydantic import TypeAdapter
 from app.bookings.dao import BookingDAO
 from app.bookings.schemas import SBooking
@@ -16,6 +17,7 @@ router = APIRouter(
 
 
 @router.get("/{booking_id}")
+@version(2)
 async def get_booking_by_id(booking_id: int) -> SBooking:
     booking = await BookingDAO.find_by_id(booking_id)
     if not booking:
